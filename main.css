@@ -397,7 +397,7 @@ body,
     bottom: calc(0*var(--unit));
     width: 100%;
     height: calc(1920*var(--unit) - var(--offsetTop));
-    overflow-y: scroll;
+    overflow: hidden;
     scroll-behavior: smooth;
 }
 
