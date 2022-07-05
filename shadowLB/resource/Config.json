@@ -1,0 +1,48 @@
+{
+    "instruction": "Move the slider to change the orientation of the light source and observe the change in shadow cast by the same object.",
+    "isVisualBackgroundRequired": true,
+    "interaction": {
+        "type": "continuousSlider",
+        "isPopupRequired": false,
+        "title": "",
+        "FrameCount": "102",
+        "isDoubleHeightRequired": false,
+        "options": [
+            {
+                "title": "",
+                "feedback": "Light is blocked by the object's surface facing it, which casts a circular shadow on the screen.",
+                "feedbackDelay": 1
+            },
+            {
+                "title": "",
+                "feedback": "Light is blocked by the object's surface facing it, which casts a rectangular shadow on the screen.",
+                "feedbackDelay": 1
+            }
+        ]
+    },
+    "question": "Identify the shadow when light is projected on this object from the top.",
+    "isQuestionVisualRequired": true,
+    "quiz": {
+        "type": "mcq",
+        "isIconReruired": true,
+        "isTitleRequired": false,
+        "options": [
+            {
+                "title": "",
+                "isCorrectAnswer": false
+            },
+            {
+                "title": "",
+                "isCorrectAnswer": false
+            },
+            {
+                "title": "",
+                "isCorrectAnswer": true
+            }
+        ]
+    },
+    "solution": " • Opaque Objects cast shadow when light falls on them.\n • The circular top of the object is blocking the light falling on top of it, hence it casts a circular shadow.",
+    "isPrimarySolutionImageRequired": false,
+    "isSecondarySolutionImageRequired": false,
+    "summary": "You have successfully learned that an object can cast different shadows by changing the orientation of a light source."
+}
