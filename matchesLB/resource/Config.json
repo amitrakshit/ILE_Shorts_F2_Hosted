@@ -1,0 +1,52 @@
+{
+    "instruction": "Move the slider to observe the effect of the magnet on the bundle of burnt and unburnt matchsticks suspended by strings.",
+    "isVisualBackgroundRequired": true,
+    "interaction": {
+        "type": "continuousSlider",
+        "isPopupRequired": false,
+        "title": "",
+        "FrameCount": "43",
+        "isDoubleHeightRequired": false,
+        "options": [
+            {
+                "title": "",
+                "feedback": "There is no influence of magnet on either of blocks.",
+                "feedbackDelay": 1
+            },
+            {
+                "title": "",
+                "feedback": "The magnet attracts the burnt matchsticks, indicating a presence of magnetic material.",
+                "feedbackDelay": 1
+            }
+        ]
+    },
+    "question": "The force of magnetisation exist in the following cases:",
+    "isQuestionVisualRequired": false,
+    "quiz": {
+        "type": "mcq",
+        "isIconReruired": false,
+        "isTitleRequired": true,
+        "options": [
+            {
+                "title": "When the objects are in contact with each other.",
+                "isCorrectAnswer": false
+            },
+            {
+                "title": "When the objects are near to each other.",
+                "isCorrectAnswer": false
+            },
+            {
+                "title": "Both of the above.",
+                "isCorrectAnswer": true
+            },
+            {
+                "title": "None of the above.",
+                "isCorrectAnswer": false
+            }
+        ]
+    },
+    "solution": " • Whenever two magnetic objects or a magnetic and non-magnetic objects are kept close together or in contact, the force of magnetization is present between them.",
+    "isPrimarySolutionImageRequired": false,
+    "isSecondarySolutionImageRequired": false,
+    "summary": "You just explored that magnetic materials are attracted to magnets when kept near to them."
+}
