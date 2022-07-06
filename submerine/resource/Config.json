@@ -9,12 +9,12 @@
         "options": [
             {
                 "title": "",
-                "feedback": "Uh-oh! The light strikes the non-reflecting part of the mirror.",
+                "feedback": "Uh-oh! The light bends away from the observer after reflecting from the mirror.",
                 "feedbackDelay": 1
             },
             {
                 "title": "",
-                "feedback": "Uh-oh! The light bends away from the observer after reflecting from the mirror.",
+                "feedback": "Uh-oh! The light strikes the non-reflecting part of the mirror.",
                 "feedbackDelay": 1
             },
             {

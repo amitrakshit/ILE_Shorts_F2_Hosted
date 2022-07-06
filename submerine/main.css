@@ -96,6 +96,31 @@ body,
     opacity: 0;
 }
 
+.ProgressBar{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: calc(100*var(--unit));
+}
+
+.ProgressBar .ProgressBar-background{
+    position: relative;
+    width: 96%;
+    height: calc(10*var(--unit));
+    border-radius: calc(5*var(--unit));
+    background-color: #ffffff33;
+}
+
+.ProgressBar-background .ProgressBar-strechable{
+    position: relative;
+    height: 100%;
+    border-radius: calc(5*var(--unit));
+    width: 50%;
+    background-color: #fff;
+}
 .LoadingScreen {
     position: absolute;
     top: 0;
