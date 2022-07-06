@@ -9,17 +9,17 @@
         "options": [
             {
                 "title": "",
-                "feedback": "Excellent! The light undergoes multiple reflections and reaches the observer.",
-                "feedbackDelay": 1
-            },
-            {
-                "title": "",
                 "feedback": "Uh-oh! The light strikes the non-reflecting part of the mirror.",
                 "feedbackDelay": 1
             },
             {
                 "title": "",
                 "feedback": "Uh-oh! The light bends away from the observer after reflecting from the mirror.",
+                "feedbackDelay": 1
+            },
+            {
+                "title": "",
+                "feedback": "Excellent! The light undergoes multiple reflections and reaches the observer.",
                 "feedbackDelay": 1
             }
         ]
@@ -46,7 +46,7 @@
         ]
     },
     "solution": "• Mirrors can help the light ray to bend multiple times.\n• In this setup the mirrors are arranged in a way that the incoming light retraces back.",
-    "isPrimarySolutionImageRequired": false,
+    "isPrimarySolutionImageRequired": true,
     "isSecondarySolutionImageRequired": false,
     "summary": "You just explored that a mirror can change the path of the light ray. Therefore, multiple mirrors can reflect the ray multiple times."
 }

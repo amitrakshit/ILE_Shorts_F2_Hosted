@@ -179,9 +179,7 @@ body,
     font-style: normal;
     font-weight: 325;
     font-size: calc(39*var(--unit));
-    ;
     line-height: calc(60*var(--unit));
-    ;
     /* or 154% */
 
     color: #FFFDFD;
@@ -492,8 +490,9 @@ body,
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     width: calc(984*var(--unit));
-    height: calc(240*var(--unit));
-    top: calc(60*var(--unit));
+    min-height: calc(230*var(--unit));
+    max-height: calc(250*var(--unit));
+    top: calc(42*var(--unit));
     font-family: 'GothamSSm', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: 325;
@@ -501,6 +500,7 @@ body,
     line-height: calc(60*var(--unit));
     /* or 154% */
     color: #FFFDFD;
+    height: auto;
 }
 
 .Question-option-container {
@@ -522,7 +522,7 @@ body,
 
 .Question-image {
     position: relative;
-    top: calc(52 * var(--unit));
+    top: calc(72 * var(--unit));
     width: calc(984 * var(--unit));
     height: calc(452 * var(--unit));
 }
@@ -616,8 +616,8 @@ body,
 
 .Question-solution .Question-solution-body {
     position: relative;
-    margin-top: 0.1em;
-    margin-bottom: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
     width: calc(909*var(--unit));
     font-family: 'GothamSSm';
     font-style: normal;
@@ -631,6 +631,14 @@ body,
     background-color: #ffffff00;
     white-space: pre-line;
     color: #FFFFFF;
+}
+
+.solution-image {
+    position: relative;
+    margin-top: calc(20*var(--unit));
+    margin-bottom: calc(20*var(--unit));
+    width: 80%;
+    height: auto;
 }
 .Option {
     position: relative;
