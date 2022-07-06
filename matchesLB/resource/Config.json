@@ -20,7 +20,7 @@
             }
         ]
     },
-    "question": "The force of magnetisation exist in the following cases:",
+    "question": "Which of the following is getting reduced in the following reaction? $$ CuO + H_2 → Cu + H_2O$$",
     "isQuestionVisualRequired": false,
     "quiz": {
         "type": "mcq",
@@ -28,24 +28,24 @@
         "isTitleRequired": true,
         "options": [
             {
-                "title": "When the objects are in contact with each other.",
-                "isCorrectAnswer": false
-            },
-            {
-                "title": "When the objects are near to each other.",
-                "isCorrectAnswer": false
-            },
-            {
-                "title": "Both of the above.",
+                "title": "$$CuO$$",
                 "isCorrectAnswer": true
             },
             {
-                "title": "None of the above.",
+                "title": "$$H_2$$",
+                "isCorrectAnswer": false
+            },
+            {
+                "title": "$$Cu$$",
+                "isCorrectAnswer": false
+            },
+            {
+                "title": "$$H_2$$",
                 "isCorrectAnswer": false
             }
         ]
     },
-    "solution": " • Whenever two magnetic objects or a magnetic and non-magnetic objects are kept close together or in contact, the force of magnetization is present between them.",
+    "solution": "• Reduction is a process which involves the addition of hydrogen or the removal of oxygen atom.\n • Since oxygen is being removed from CuO, hence it is being reduced in the given reaction.",
     "isPrimarySolutionImageRequired": false,
     "isSecondarySolutionImageRequired": false,
     "summary": "You just explored that magnetic materials are attracted to magnets when kept near to them."

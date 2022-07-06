@@ -12,8 +12,8 @@ body,
    top: 0;
    left: 0;
    min-height: var(--unit);
-   background-color:  #2b1a5f;
-   /* background-color:  #0166B8; */
+   /* background-color:  #2b1a5f; */
+   background-color:  #0166B8;
    width: 100%;
    height: 100%;
    font-family: "GothamSSm", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -179,7 +179,9 @@ body,
     font-style: normal;
     font-weight: 325;
     font-size: calc(39*var(--unit));
+    ;
     line-height: calc(60*var(--unit));
+    ;
     /* or 154% */
 
     color: #FFFDFD;
@@ -231,10 +233,8 @@ body,
     border-radius: calc(24*var(--unit));
     background-image: url(resource/Level1/Background.png);
     background-position: center;
-    background-size: auto 100%;
+    background-size: 100% auto;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
 }
 
 .VisualArea-spriteframe{
@@ -243,18 +243,6 @@ body,
     position: absolute;
     width: 100%;
     height: 100%;
-}
-
-.VisualArea-video{
-    position: absolute;
-    top: 0px;
-    /* left: 0px; */
-    height: 100%;
-    width: auto;
-}
-
-.video-hidden{
-    display: none;
 }
 
 .hidden{
@@ -351,83 +339,15 @@ body,
     width: calc(984*var(--unit));
     height: calc(316*var(--unit));
     top: calc(1336*var(--unit));
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.TapOption {
-    position: relative;
-    width: calc(472*var(--unit));
-    height: calc(140*var(--unit));
-    background-image: linear-gradient(180deg, #CF47FF 0%, #7E00EE 100%);
-    box-shadow: 0 calc(4*var(--unit)) calc(8*var(--unit)) #0F007B;
-    border-radius: calc(24*var(--unit));
-    margin-top: calc(18*var(--unit));
-    margin-bottom: calc(18*var(--unit));
 }
 
-
-.TapOption:nth-of-type(2n+1) {
-    margin-right: calc(10*var(--unit));
-}
-
-.TapOption:nth-of-type(2n) {
-    margin-left: calc(10*var(--unit));
-}
-
-.iconRequired-TapOption-style {
+.Taps-buttons{
     position: relative;
     width: calc(300*var(--unit));
     height: calc(316*var(--unit));
     background-image: linear-gradient(180deg, #CF47FF 0%, #7E00EE 100%);
     box-shadow: 0 calc(4*var(--unit)) calc(8*var(--unit)) #0F007B;
     border-radius: calc(24*var(--unit));
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.TapOption-icon {
-    position: relative;
-    max-width: calc(200*var(--unit));
-    min-width: calc(150*var(--unit));
-    min-height: calc(150*var(--unit));
-    max-height: calc(200*var(--unit));
-    height: auto;
-    width: auto;
-}
-
-.TapOption-title {
-    position: relative;
-    margin-top: calc(200*var(--unit));
-
-  
-    width: calc(245*var(--unit));
-    height: calc(112*var(--unit));
-
-    font-family: 'GothamSSm';
-    font-style: normal;
-    font-weight: 325;
-    font-size: calc(42*var(--unit));
-    line-height: 134%;
-    /* or 56px */
-
-    color: #FFFFFF;
-}
-
-.TapOption-hidden{
-    display: none;
-}
-
-.iconRequired-TapOption-style:nth-of-type(2n+1) {
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-.iconRequired-TapOption-style:nth-of-type(2n) {
-    margin-left: calc(42*var(--unit));
-    margin-right: calc(42*var(--unit));
 }
 .Button{
     position: absolute;
@@ -490,9 +410,8 @@ body,
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     width: calc(984*var(--unit));
-    min-height: calc(230*var(--unit));
-    max-height: calc(250*var(--unit));
-    top: calc(42*var(--unit));
+    height: calc(240*var(--unit));
+    top: calc(60*var(--unit));
     font-family: 'GothamSSm', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: 325;
@@ -500,14 +419,12 @@ body,
     line-height: calc(60*var(--unit));
     /* or 154% */
     color: #FFFDFD;
-    height: auto;
 }
 
 .Question-option-container {
     position: relative;
     top: calc(120*var(--unit));
     width: calc(984*var(--unit));
-    min-height: calc(672*var(--unit));
     height: auto;
     display: flex;
     flex-direction: column;
@@ -522,7 +439,7 @@ body,
 
 .Question-image {
     position: relative;
-    top: calc(72 * var(--unit));
+    top: calc(52 * var(--unit));
     width: calc(984 * var(--unit));
     height: calc(452 * var(--unit));
 }
@@ -561,14 +478,12 @@ body,
     line-height: calc(54*var(--unit));
     /* or 120% */
     text-align: center;
-
+    
 }
-
-.feedback-incorrect {
+.feedback-incorrect{
     color: #FF8181;
 }
-
-.feedback-correct {
+.feedback-correct{
     color: #8DD43E;
 }
 
@@ -616,8 +531,8 @@ body,
 
 .Question-solution .Question-solution-body {
     position: relative;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
     width: calc(909*var(--unit));
     font-family: 'GothamSSm';
     font-style: normal;
@@ -631,14 +546,6 @@ body,
     background-color: #ffffff00;
     white-space: pre-line;
     color: #FFFFFF;
-}
-
-.solution-image {
-    position: relative;
-    margin-top: calc(20*var(--unit));
-    margin-bottom: calc(20*var(--unit));
-    width: 80%;
-    height: auto;
 }
 .Option {
     position: relative;
