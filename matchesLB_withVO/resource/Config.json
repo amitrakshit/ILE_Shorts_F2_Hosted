@@ -1,0 +1,52 @@
+{
+    "instruction": "Move the slider to observe the effect of the magnet on the bundle of burnt and unburnt matchsticks suspended by strings.",
+    "isVisualBackgroundRequired": true,
+    "interaction": {
+        "type": "continuousSlider",
+        "isPopupRequired": false,
+        "title": "",
+        "FrameCount": "43",
+        "isDoubleHeightRequired": false,
+        "options": [
+            {
+                "title": "",
+                "feedback": "There is no influence of magnet on either of bundles.",
+                "feedbackDelay": 1
+            },
+            {
+                "title": "",
+                "feedback": "The magnet attracts the burnt matchsticks, indicating a presence of magnetic material.",
+                "feedbackDelay": 1
+            }
+        ]
+    },
+    "question": "Which of the following is getting reduced in the following reaction?",
+    "isQuestionVisualRequired": true,
+    "quiz": {
+        "type": "mcq",
+        "isIconReruired": true,
+        "isTitleRequired": false,
+        "options": [
+            {
+                "title": "CuO",
+                "isCorrectAnswer": true
+            },
+            {
+                "title": "H_2O",
+                "isCorrectAnswer": false
+            },
+            {
+                "title": "Cu",
+                "isCorrectAnswer": false
+            },
+            {
+                "title": "H_2",
+                "isCorrectAnswer": false
+            }
+        ]
+    },
+    "solution": "• Reduction is a process which involves the addition of hydrogen or the removal of oxygen atom.\n • Since oxygen is being removed from CuO, hence it is being reduced in the given reaction.",
+    "isPrimarySolutionImageRequired": false,
+    "isSecondarySolutionImageRequired": false,
+    "summary": "You just explored that magnetic materials are attracted to magnets when kept near to them."
+}
