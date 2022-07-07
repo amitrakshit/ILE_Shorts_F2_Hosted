@@ -1,0 +1,52 @@
+{
+    "instruction": "Tap the mirror arrangements to place them in the highlighted areas to ensure that the light from the source reaches the observer.",
+    "isVisualBackgroundRequired": true,
+    "interaction": {
+        "type": "tap",
+        "isIconReruired": true,
+        "isTitleRequired": false,
+        "isDoubleHeightRequired": true,
+        "options": [
+            {
+                "title": "",
+                "feedback": "Uh-oh! The light bends away from the observer after reflecting from the mirror.",
+                "feedbackDelay": 1
+            },
+            {
+                "title": "",
+                "feedback": "Uh-oh! The light strikes the non-reflecting part of the mirror.",
+                "feedbackDelay": 1
+            },
+            {
+                "title": "",
+                "feedback": "Excellent! The light undergoes multiple reflections and reaches the observer.",
+                "feedbackDelay": 1
+            }
+        ]
+    },
+    "question": "Determine the point from which the light ray will emerge from the tube when a light ray enters this setup of multiple mirrors from point C.",
+    "isQuestionVisualRequired": true,
+    "quiz": {
+        "type": "mcq",
+        "isIconReruired": false,
+        "isTitleRequired": true,
+        "options": [
+            {
+                "title": "A",
+                "isCorrectAnswer": false
+            },
+            {
+                "title": "B",
+                "isCorrectAnswer": false
+            },
+            {
+                "title": "C",
+                "isCorrectAnswer": true
+            }
+        ]
+    },
+    "solution": "• Mirrors can help the light ray to bend multiple times.\n• In this setup the mirrors are arranged in a way that the incoming light retraces back.",
+    "isPrimarySolutionImageRequired": true,
+    "isSecondarySolutionImageRequired": false,
+    "summary": "You just explored that a mirror can change the path of the light ray. Therefore, multiple mirrors can reflect the ray multiple times."
+}
