@@ -526,6 +526,7 @@ body,
     /* or 154% */
     color: #FFFDFD;
     height: auto;
+    text-align: justify;
 }
 
 .Question-option-container {
@@ -678,6 +679,7 @@ body,
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .iconRequired-option-style {
@@ -692,7 +694,7 @@ body,
 }
 
 .Option-icon {
-    height: calc(200*var(--unit));
+    max-height: calc(200*var(--unit));
     width: auto;
 }
 

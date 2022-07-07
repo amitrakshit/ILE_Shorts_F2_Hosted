@@ -20,27 +20,27 @@
             }
         ]
     },
-    "question": "Which of the following is getting reduced in the following reaction? $$ CuO + H_2 → Cu + H_2O$$",
-    "isQuestionVisualRequired": false,
+    "question": "Which of the following is getting reduced in the following reaction?",
+    "isQuestionVisualRequired": true,
     "quiz": {
         "type": "mcq",
-        "isIconReruired": false,
-        "isTitleRequired": true,
+        "isIconReruired": true,
+        "isTitleRequired": false,
         "options": [
             {
-                "title": "$$CuO$$",
+                "title": "CuO",
                 "isCorrectAnswer": true
             },
             {
-                "title": "$$H_2$$",
+                "title": "H_2O",
                 "isCorrectAnswer": false
             },
             {
-                "title": "$$Cu$$",
+                "title": "Cu",
                 "isCorrectAnswer": false
             },
             {
-                "title": "$$H_2$$",
+                "title": "H_2",
                 "isCorrectAnswer": false
             }
         ]
