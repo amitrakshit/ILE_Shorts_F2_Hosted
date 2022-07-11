@@ -692,7 +692,8 @@ body,
 }
 
 .Option-icon {
-    height: calc(200*var(--unit));
+    max-height: calc(200*var(--unit));
+    max-width: calc(200*var(--unit));
     width: auto;
 }
 
